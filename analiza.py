@@ -5,9 +5,7 @@ import google.generativeai as genai
 
 print("Iniciando la ejecución del script...") # Mensaje para confirmar que el script se está ejecutando
 
-# --- Configuración de la API de Gemini ---
-# IMPORTANTE: Reemplaza "XXXXXXXX" con tu clave de API real.
-# NO COMPARTAS TU CLAVE DE API.
+
 genai.configure(api_key="AIzaSyB-b6cWOUMEz4BjOIZDHRj-GYyqli9j2zY")
 
 def analyze_with_gemini_placeholder(subject, description, resolution):
